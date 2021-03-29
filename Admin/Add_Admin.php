@@ -19,16 +19,14 @@ if (isset($_POST['Add'])) {
 <?php 
 include("includes/header.php");
  ?>
-                
- 
 
-				<div class="span9">
-					<div class="content">
-						<div class="module" style="background:#FFFFFF" id="ll">
-							<div class="module-head" style="background:#FFFFFF" id="k">
-								<h3 style="color:#001727;font-size:16px;" id="nnn">Add Admin</h3>
-							</div><hr>
-							<div class="module-body" >
+<div class="span9">
+<div class="content">
+<div class="module" style="background:#FFFFFF" id="ll">
+<div class="module-head" style="background:#FFFFFF" id="k">
+<h3 style="color:#001727;font-size:16px;" id="nnn">Add Admin</h3>
+</div><hr>
+<div class="module-body" >
 
 									
 									
@@ -36,70 +34,68 @@ include("includes/header.php");
 
 								
 
-									<form class="form-horizontal row-fluid" method="post" action="" enctype="multipart/form-data">
-										<div class="control-group">
-											<label class="control-label" for="basicinput" >Admin Name</label>
-											<div class="controls">
-												<input type="text" id="basicinput" placeholder="Admin Name" class="span8" name="Admin_name">
+<form class="form-horizontal row-fluid" method="post" action="" enctype="multipart/form-data">
+<div class="control-group">
+<label class="control-label" for="basicinput" >Admin Name</label>
+<div class="controls">
+<input type="text" id="basicinput" placeholder="Admin Name" class="span8" name="Admin_name">
 												
-											</div>
-										</div>
-
-										<div class="control-group">
-											<label class="control-label" for="basicinput" >Admin email </label>
-											<div class="controls">
-												<input type="email" id="basicinput" placeholder="Admin email" class="span8" name="Admin_email" class="ccc">
+</div>
+</div>
+<div class="control-group">
+<label class="control-label" for="basicinput" >Admin email </label>
+<div class="controls">
+<input type="email" id="basicinput" placeholder="Admin email" class="span8" name="Admin_email" class="ccc">
 												
-											</div>
-										</div>
+</div>
+</div>
 
                                         
-                                        <div class="control-group">
-											<label class="control-label" for="basicinput" >Admin Name</label>
-											<div class="controls">
-												<input type="text" id="basicinput" placeholder="Admin password" class="span8" name="Admin_password">
+<div class="control-group">
+<label class="control-label" for="basicinput" >Admin Name</label>
+<div class="controls">
+<input type="text" id="basicinput" placeholder="Admin password" class="span8" name="Admin_password">
 												
-											</div>
-										</div>
+</div>
+</div>
                                         
-								    <div class="control-group">
-											<label class="control-label" for="basicinput">Admin Image</label>
-											<div class="controls">
-				                  <input name="image" type="file"
-                                    value="sadasd.jpg" class="form-control cc-number identified visa" id="basicinput">
+ <div class="control-group">
+<label class="control-label" for="basicinput">Admin Image</label>
+<div class="controls">
+<input name="image" type="file" value="sadasd.jpg" class="form-control cc-number identified visa" id="basicinput">
 												
-											</div>
-										</div>
-                                    <br><br><div class="controls">
-									<input type="submit" value="Add Admin"class=" btn btn-outline-secondary" style="padding:10px 20px;font-size:14px;border:1px solid #4E9CB2;background:#2A4AC0;color:#fff" name="Add">
+</div>
+</div>
+<br><br><div class="controls">
+<input type="submit" value="Add Admin"class=" btn btn-outline-secondary" style="padding:10px 20px;font-size:14px;border:1px solid #4E9CB2;background:#2A4AC0;color:#fff" name="Add">
 									
                                    
-									 </div>
+ </div>
 
-									</form>
+</form>
                 
 					
-							  </div>
-                              </div> 
+</div>
+</div> 
                         
                         		
-                        <div class="module">
-							<div class="module-head" style="background:#FFFFFF" id="oo">
+<div class="module">
+<div class="module-head" style="background:#FFFFFF" id="oo">
 								<h3 style="color:#171727;font-size:16px;" id="fon">Added Admin</h3>
 							</div>
-							<div class="module-body" style="background:#ffffff">
+    <div class="module-body" style="background:#ffffff">
 						
-								<table class="table">
-								  <thead>
-									<tr>
-									  <th>ID</th>
-									  <th>Email</th>
-									  <th>Name</th>
-									  <th>Image</th>
-									  <th>Delete</th>
-									</tr>
-								  </thead>
-								  <tbody>
+<table class="table">
+  <thead>
+<tr>
+ <th>ID</th>
+ <th>Email</th>
+ <th>Name</th>
+ <th>Image</th>
+<th>Delete</th>
+</tr>
+</thead>
+<tbody>
 									
  <?php 
 $count = 1;
